@@ -1,0 +1,59 @@
+{
+	"pages": [{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		},
+		{
+			"path": "pages/sreach/sreach"
+		},
+		{
+			"path": "pages/position/positon"
+		}
+
+	],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/n-1-a.png",
+				"selectedIconPath": "static/images/n-1.png"
+			},
+			{
+				"pagePath": "pages/sreach/sreach",
+				"text": "搜索",
+				"iconPath": "static/images/n-2-a.png",
+				"selectedIconPath": "static/images/n-2.png"
+			},
+			{
+				"pagePath": "pages/dingzhi/dingzhi",
+				"text": "定制行程",
+				"iconPath": "static/images/n-3.png",
+				"selectedIconPath": "static/images/n-3.png"
+			},
+			{
+				"pagePath": "pages/position/positon",
+				"text": "目的地",
+				"iconPath": "static/images/n-4-a.png",
+				"selectedIconPath": "static/images/n-4.png"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"text": "我",
+				"iconPath": "static/images/n-5-a.png",
+				"selectedIconPath": "static/images/n-5.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小飞鸟",
+		"navigationBarBackgroundColor": "#f2f2f2",
+		"backgroundColor": "#F8F8F8",
+		"backgroundTextStyle": "light"
+	}
+}
